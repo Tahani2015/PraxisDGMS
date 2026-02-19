@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "@vtModels": "analyticModels/",
+    "@vtSpecs":"vtSpecs/",
+    "@vtMetricSchemas":"metricSchemas/"
+  },
+  "metricSchema":"metricSchemas/metricSchema.json",
+  "constraints":{
+    "@functionRef": "reqSpecs/reqSpec1/objectivesConstraints.py:consts"
+  },
+  "objectives":{
+    "schema": {
+      "cost": {
+        "dgalType": "floatMetric",
+        "minMax": "min",
+        "lb": 0,
+        "ub": 1000000
+      },
+      "co2": {
+        "dgalType": "floatMetric",
+        "minMax": "min",
+        "lb": 0,
+        "ub": 1000000
+      },
+      "manufTime": {
+        "dgalType": "floatMetric",
+        "minMax": "min",
+        "lb": 0,
+        "ub": 1000000
+      }
+  },
+    "function":{
+      "@functionRef": "reqSpecs/reqSpec1/objectivesConstraints.py:objs"
+    }
+  }
+}

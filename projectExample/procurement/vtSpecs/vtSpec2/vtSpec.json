@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@vtModels": "analyticModels/",
+    "@vtSpecs":"vtSpecs/",
+    "@vtMetricSchemas":"metricSchemas/"
+  },
+  "model": {
+    "@functionRef": "analyticModels/modelAM.py:am"
+},
+  "parametersSchema": "vtSpecs/vtSpec2/parametersSchema.json",
+  "metricSchema": "metricSchemas/metricSchema.json"
+}

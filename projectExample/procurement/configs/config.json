@@ -1,0 +1,13 @@
+{
+    "reqSpec": "reqSpecs/reqSpec1/reqSpec.json",
+    "vtSpecs": [ "vtSpecs/vtSpec1/vtSpec.json",
+    "vtSpecs/vtSpec2/vtSpec.json"
+    ],
+    "settings": {
+      "initialObj": "cost",
+      "alpha_entries": 100,
+      "alpha_epsilon": 0.0001,
+      "unifyObjs_epsilon": 1
+    },
+    "projectName": "procurement"
+}
