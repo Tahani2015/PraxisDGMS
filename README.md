@@ -118,6 +118,7 @@ Navigate to the PraxisDGMS root directory, then run:
 ```bash
 python lib/optiGuide_lib/mainPreprocessing.py --project-dir "/path/to/myProject"
 ```
+This prepares the recommendation data and computes Pareto-optimal solutions.
 
 ### Step 2 – Launch the Interactive Interface
 
