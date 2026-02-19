@@ -100,7 +100,7 @@ conda install -c conda-forge pyomo
 
 ### 5. Clone PraxisDGMS from GitHub
 ```bash
-git clone https://github.com/PraxisGGMS/PraxisDGMS.git
+git clone https://github.com/Tahani2015/PraxisDGMS.git
 ```
 Or download the ZIP file from GitHub and extract the PraxisDGMS folder to your machine.
 
