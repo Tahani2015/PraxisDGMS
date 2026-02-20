@@ -1,17 +1,15 @@
 # Praxis DGMS
 
-### A Decision Guidance Management System for Virtual Things
+### An Interactive Decision Guidance Management System
 
-Praxis DGMS is an open-source framework for building and running interactive decision guidance systems over **Virtual Things (VTs)** — parameterized products, services, or design specifications. It provides a layered infrastructure for multi-objective optimization and interactive Pareto-based decision support.
+Praxis DGMS is an open-source framework for building and running interactive decision guidance systems over Virtual Things (VTs) — parameterized products, services, or design specifications. It provides a layered infrastructure for multi-objective optimization and interactive Pareto-based decision support.
 
 #### Praxis integrates:
-- DGMS execution and optimization infrastructure
+- OptiGuide+ (interactive decision guidance engine)
 - DGAL (Decision Guidance Analytics Language)
-- OptiGuide (interactive decision guidance engine)
-- Mathematical solvers (e.g., Gurobi)
-- A structured artifact repository
+- DG-ViTh (A structured artifact repository)
+- Mathematical optimization solvers (e.g., Gurobi)
 - A reproducible project-based workflow
-
 
 #### Praxis allows developers to:
 - Model domain-specific Virtual Things
